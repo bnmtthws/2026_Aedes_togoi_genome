@@ -1,0 +1,205 @@
+>Feature Aedes_togoi_mt
+1	69	gene
+			gene	trnI
+1	69	tRNA
+			product	tRNA-Ile
+			anticodon	(pos:31..33,aa:Ile,seq:gat)
+138	70	gene
+			gene	trnQ
+138	70	tRNA
+			product	tRNA-Gln
+			anticodon	(pos:complement(106..108),aa:Gln,seq:ttg)
+138	206	gene
+			gene	trnM
+138	206	tRNA
+			product	tRNA-Met
+			anticodon	(pos:168..170,aa:Met,seq:cat)
+207	1232	gene
+			gene	ND2
+207	1232	CDS
+			product	NADH dehydrogenase subunit 2
+			transl_table	5
+1234	1302	gene
+			gene	trnW
+1234	1302	tRNA
+			product	tRNA-Trp
+			anticodon	(pos:1264..1266,aa:Trp,seq:tca)
+1368	1302	gene
+			gene	trnC
+1368	1302	tRNA
+			product	tRNA-Cys
+			anticodon	(pos:complement(1337..1339),aa:Cys,seq:gca)
+1457	1392	gene
+			gene	trnY
+1457	1392	tRNA
+			product	tRNA-Tyr
+			anticodon	(pos:complement(1424..1426),aa:Tyr,seq:gta)
+<1456	2992	gene
+			gene	COX1
+<1456	2992	CDS
+			product	cytochrome c oxidase subunit I
+			transl_table	5
+			transl_except	(pos:2992,aa:TERM)
+			note	TAA stop codon completed by adding 3' A residues to mRNA
+			note	start codon not determined; putative TCG (Ser) start inferred by homology with Ae. japonicus, Ae. koreicus and Ae. notoscriptus COX1
+2993	3059	gene
+			gene	trnL
+2993	3059	tRNA
+			product	tRNA-Leu
+			anticodon	(pos:3022..3024,aa:Leu,seq:taa)
+			note	codon recognized: UUR
+3061	3745	gene
+			gene	COX2
+3061	3745	CDS
+			product	cytochrome c oxidase subunit II
+			transl_table	5
+			transl_except	(pos:3745,aa:TERM)
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+3746	3816	gene
+			gene	trnK
+3746	3816	tRNA
+			product	tRNA-Lys
+			anticodon	(pos:3776..3778,aa:Lys,seq:ctt)
+3828	3896	gene
+			gene	trnD
+3828	3896	tRNA
+			product	tRNA-Asp
+			anticodon	(pos:3858..3860,aa:Asp,seq:gtc)
+3897	4058	gene
+			gene	ATP8
+3897	4058	CDS
+			product	ATP synthase F0 subunit 8
+			transl_table	5
+4052	4732	gene
+			gene	ATP6
+4052	4732	CDS
+			product	ATP synthase F0 subunit 6
+			transl_table	5
+4736	5524	gene
+			gene	COX3
+4736	5524	CDS
+			product	cytochrome c oxidase subunit III
+			transl_table	5
+5525	5591	gene
+			gene	trnG
+5525	5591	tRNA
+			product	tRNA-Gly
+			anticodon	(pos:5556..5558,aa:Gly,seq:tcc)
+5592	5943	gene
+			gene	ND3
+5592	5943	CDS
+			product	NADH dehydrogenase subunit 3
+			transl_table	5
+			transl_except	(pos:5943,aa:TERM)
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+5944	6007	gene
+			gene	trnR
+5944	6007	tRNA
+			product	tRNA-Arg
+			anticodon	(pos:5973..5975,aa:Arg,seq:tcg)
+6008	6074	gene
+			gene	trnA
+6008	6074	tRNA
+			product	tRNA-Ala
+			anticodon	(pos:6037..6039,aa:Ala,seq:tgc)
+6076	6142	gene
+			gene	trnN
+6076	6142	tRNA
+			product	tRNA-Asn
+			anticodon	(pos:6106..6108,aa:Asn,seq:gtt)
+6207	6141	gene
+			gene	trnS
+6207	6141	tRNA
+			product	tRNA-Ser
+			anticodon	(pos:complement(6180..6182),aa:Ser,seq:gct)
+			note	codon recognized: AGN
+6246	6312	gene
+			gene	trnE
+6246	6312	tRNA
+			product	tRNA-Glu
+			anticodon	(pos:6276..6278,aa:Glu,seq:ttc)
+6383	6317	gene
+			gene	trnF
+6383	6317	tRNA
+			product	tRNA-Phe
+			anticodon	(pos:complement(6349..6351),aa:Phe,seq:gaa)
+8131	6389	gene
+			gene	ND5
+8131	6389	CDS
+			product	NADH dehydrogenase subunit 5
+			transl_table	5
+8196	8132	gene
+			gene	trnH
+8196	8132	tRNA
+			product	tRNA-His
+			anticodon	(pos:complement(8164..8166),aa:His,seq:gtg)
+9548	8205	gene
+			gene	ND4
+9548	8205	CDS
+			product	NADH dehydrogenase subunit 4
+			transl_table	5
+9838	9542	gene
+			gene	ND4L
+9838	9542	CDS
+			product	NADH dehydrogenase subunit 4L
+			transl_table	5
+9841	9906	gene
+			gene	trnT
+9841	9906	tRNA
+			product	tRNA-Thr
+			anticodon	(pos:9871..9873,aa:Thr,seq:tgt)
+9972	9907	gene
+			gene	trnP
+9972	9907	tRNA
+			product	tRNA-Pro
+			anticodon	(pos:complement(9940..9942),aa:Pro,seq:tgg)
+9975	10493	gene
+			gene	ND6
+9975	10493	CDS
+			product	NADH dehydrogenase subunit 6
+			transl_table	5
+10493	11627	gene
+			gene	CYTB
+10493	11627	CDS
+			product	cytochrome b
+			transl_table	5
+			transl_except	(pos:11627,aa:TERM)
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+11628	11693	gene
+			gene	trnS
+11628	11693	tRNA
+			product	tRNA-Ser
+			anticodon	(pos:11656..11658,aa:Ser,seq:tga)
+			note	codon recognized: UCN
+12665	11715	gene
+			gene	ND1
+12665	11715	CDS
+			product	NADH dehydrogenase subunit 1
+			transl_table	5
+12733	12666	gene
+			gene	trnL
+12733	12666	tRNA
+			product	tRNA-Leu
+			anticodon	(pos:complement(12702..12704),aa:Leu,seq:tag)
+			note	codon recognized: CUN
+14071	12734	gene
+			gene	rrnL
+14071	12734	rRNA
+			product	16S ribosomal RNA
+14143	14072	gene
+			gene	trnV
+14143	14072	tRNA
+			product	tRNA-Val
+			anticodon	(pos:complement(14108..14110),aa:Val,seq:tac)
+14933	14144	gene
+			gene	rrnS
+14933	14144	rRNA
+			product	12S ribosomal RNA
+14934	17509	D-loop
+			note	A+T-rich control region
+14937	16181	repeat_region
+			rpt_type	tandem
+			note	161 bp repeat unit, approximately 7.7 copies (Tandem Repeats Finder)
+16261	17395	repeat_region
+			rpt_type	tandem
+			note	368 bp repeat unit, approximately 3.1 copies (Tandem Repeats Finder)
